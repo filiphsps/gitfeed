@@ -14,7 +14,7 @@ export const LIGHT_THEME: ExtendedTheme = {
     colors: {
         primary: '#11181C',
         text: '#11181C',
-        background: '#fff',
+        background: '#fcfcfc',
         card: 'rgb(255, 255, 255)',
         tint: '#0a7ea4',
         icon: 'rgb(60, 60, 60)',
@@ -30,7 +30,7 @@ export const DARK_THEME: ExtendedTheme = {
     colors: {
         primary: '#ECEDEE',
         text: '#ECEDEE',
-        background: '#151718',
+        background: '#000000',
         card: 'rgb(18, 18, 18)',
         tint: '#fff',
         icon: 'rgb(130, 130, 130)',

@@ -19,8 +19,8 @@ export default function Layout() {
             <ProvidersRegistry theme={theme}>
                 <StatusBar style="auto" />
 
-                <Stack>
-                    <Stack.Screen name="(root)" options={{ headerShown: false }} />
+                <Stack screenOptions={{ headerShown: false }}>
+                    <Stack.Screen name="(root)" />
                 </Stack>
             </ProvidersRegistry>
         </GestureHandlerRootView>

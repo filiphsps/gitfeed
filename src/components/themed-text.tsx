@@ -12,8 +12,8 @@ export function ThemedText({ className, type = 'default', ...rest }: ThemedTextP
                 'text-base text-text-base',
                 type === 'defaultSemiBold' && 'font-semibold',
 
-                type === 'title' && 'text-5xl font-bold',
-                type === 'subtitle' && 'text-3xl font-medium',
+                type === 'title' && 'text-4xl font-bold leading-[1.1]',
+                type === 'subtitle' && 'text-xl font-medium',
                 type === 'link' && 'text-cyan-600 underline underline-offset-2',
                 className
             )}
