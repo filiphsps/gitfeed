@@ -5,9 +5,6 @@
         ":semanticCommitTypeAll(chore)",
         ":automergeMajor"
     ],
-    "gitIgnoredAuthors": [
-        "github-actions[bot]@users.noreply.github.com"
-    ],
     "ignoreDeps": [
         "@testing-library/react-native",
         "@types/jest",

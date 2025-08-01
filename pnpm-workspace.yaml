@@ -1,9 +1,8 @@
 nodeLinker: hoisted
+enablePrePostScripts: true
+
 packages:
   - .
 
 onlyBuiltDependencies:
   - unrs-resolver
-#overrides:
-#    react: "$react"
-#    lodash: "4.17.21"
