@@ -1,13 +1,13 @@
 import { cn } from '@/utils/cn';
-import { Text, type TextProps } from 'react-native';
+import { Text as RNText, type TextProps as RNTextProps } from 'react-native';
 
-export type ThemedTextProps = TextProps & {
+export type TextProps = RNTextProps & {
     type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link';
 };
 
-export function ThemedText({ className, type = 'default', ...rest }: ThemedTextProps) {
+export function Text({ className, type = 'default', ...rest }: TextProps) {
     return (
-        <Text
+        <RNText
             className={cn(
                 'text-base text-text-base',
                 type === 'defaultSemiBold' && 'font-semibold',

@@ -32,7 +32,7 @@ export const DARK_THEME: ExtendedTheme = {
         text: '#ECEDEE',
         background: '#000000',
         card: 'rgb(18, 18, 18)',
-        tint: '#fff',
+        tint: '#ffffff',
         icon: 'rgb(130, 130, 130)',
         border: 'rgb(39, 39, 41)',
         notification: 'rgb(255, 69, 58)'

@@ -1,4 +1,4 @@
-import { ThemedText } from '@/components/themed-text';
+import { Text } from '@/components/text';
 import { FlashList } from '@shopify/flash-list';
 import { useCallback, useRef } from 'react';
 import { useWindowDimensions, View } from 'react-native';
@@ -21,13 +21,13 @@ export function Reel() {
                             <View className="h-72 w-full border-b-2 border-border-base">
                                 <SafeAreaView edges={['top']} className="flex h-full w-full justify-start">
                                     <View className="flex h-full items-start justify-end gap-2 p-4">
-                                        <ThemedText type="title" className="line-clamp-2 overflow-ellipsis">
+                                        <Text type="title" className="line-clamp-2 overflow-ellipsis">
                                             react-native-scroll-to-child-again
-                                        </ThemedText>
-                                        <ThemedText type="subtitle" className="text-icon-base">
+                                        </Text>
+                                        <Text type="subtitle" className="text-icon-base">
                                             React Native package to programmatically scroll a child of a ScrollView into
                                             view.
-                                        </ThemedText>
+                                        </Text>
                                     </View>
                                 </SafeAreaView>
                             </View>
