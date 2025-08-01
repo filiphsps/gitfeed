@@ -1,0 +1,9 @@
+nodeLinker: hoisted
+packages:
+  - .
+
+onlyBuiltDependencies:
+  - unrs-resolver
+#overrides:
+#    react: "$react"
+#    lodash: "4.17.21"
