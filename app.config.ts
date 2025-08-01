@@ -22,7 +22,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
     ios: {
         bitcode: true,
-        supportsTablet: false,
+        supportsTablet: true,
         bundleIdentifier: 'com.filiphsandstrom.gitfeed',
         userInterfaceStyle: 'automatic'
     },
@@ -63,17 +63,20 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         [
             'expo-font',
             {
-                fonts: [
-                    {
-                        fontFamily: 'SpaceMono',
-                        fontDefinitions: [
-                            {
-                                path: './assets/fonts/SpaceMono-Regular.ttf',
-                                weight: 400
-                            }
-                        ]
-                    }
-                ]
+                fonts: ['./assets/fonts/SpaceMono-Regular.ttf'],
+                android: {
+                    fonts: [
+                        {
+                            fontFamily: 'SpaceMono',
+                            fontDefinitions: [
+                                {
+                                    path: './assets/fonts/SpaceMono-Regular.ttf',
+                                    weight: 400
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         ]
     ],
