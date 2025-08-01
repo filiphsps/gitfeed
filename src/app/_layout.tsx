@@ -8,7 +8,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-export default function RootLayout() {
+export default function Layout() {
     const { theme } = useTheme();
 
     const { colorScheme } = useColorScheme();
@@ -20,7 +20,7 @@ export default function RootLayout() {
                 <StatusBar style="auto" />
 
                 <Stack>
-                    <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+                    <Stack.Screen name="(root)" options={{ headerShown: false }} />
                 </Stack>
             </ProvidersRegistry>
         </GestureHandlerRootView>
