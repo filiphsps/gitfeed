@@ -34,7 +34,7 @@
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
         "typeRoots": ["./node_modules/@types", "./src/@types"],
-        "types": ["nativewind/types"],
+        "types": ["node", "nativewind/types"],
         "useDefineForClassFields": true,
         // Keep this at the bottom so we can sort the other ones
         "paths": {
