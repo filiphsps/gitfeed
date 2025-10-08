@@ -214,8 +214,8 @@ importers:
         specifier: 1.5.1
         version: 1.5.1(react-native-svg@15.12.1(react-native@0.79.5(@babel/core@7.28.4)(@types/react@19.2.2)(react@19.0.0))(react@19.0.0))(react-native@0.79.5(@babel/core@7.28.4)(@types/react@19.2.2)(react@19.0.0))(typescript@5.9.3)
       swagger-typescript-api:
-        specifier: 13.2.14
-        version: 13.2.14
+        specifier: 13.2.15
+        version: 13.2.15
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@24.7.0)(typescript@5.9.3)
@@ -6297,8 +6297,8 @@ packages:
   swagger-schema-official@2.0.0-bab6bed:
     resolution: {integrity: sha512-rCC0NWGKr/IJhtRuPq/t37qvZHI/mH4I4sxflVM+qgVe5Z2uOCivzWaVbuioJaB61kvm5UvB7b49E+oBY0M8jA==}
 
-  swagger-typescript-api@13.2.14:
-    resolution: {integrity: sha512-ohEhHEdaosvE+RUxUBfb5fD1UZZNO2PgNXN2Mklkzkv7kiZYRD64WOKGzNsiOsPUf0lmpLmRVQ8vyTcde5v5bw==}
+  swagger-typescript-api@13.2.15:
+    resolution: {integrity: sha512-rdnPhAp989mJieOigCkicvQJzHYSORwC7eQGikdIiepIkfDm849va5uiJsNiAPxwzs5/9ReTvli02sCuO2u09Q==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -14493,7 +14493,7 @@ snapshots:
 
   swagger-schema-official@2.0.0-bab6bed: {}
 
-  swagger-typescript-api@13.2.14:
+  swagger-typescript-api@13.2.15:
     dependencies:
       '@biomejs/js-api': 3.0.0(@biomejs/wasm-nodejs@2.2.5)
       '@biomejs/wasm-nodejs': 2.2.5
