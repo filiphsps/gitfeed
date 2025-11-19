@@ -102,8 +102,8 @@ importers:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
       react-i18next:
-        specifier: 16.3.3
-        version: 16.3.3(i18next@25.6.3(typescript@5.9.3))(react-dom@19.0.0(react@19.0.0))(react-native@0.79.5(@babel/core@7.28.5)(@types/react@19.2.6)(react@19.0.0))(react@19.0.0)(typescript@5.9.3)
+        specifier: 16.3.4
+        version: 16.3.4(i18next@25.6.3(typescript@5.9.3))(react-dom@19.0.0(react@19.0.0))(react-native@0.79.5(@babel/core@7.28.5)(@types/react@19.2.6)(react@19.0.0))(react@19.0.0)(typescript@5.9.3)
       react-native:
         specifier: 0.79.5
         version: 0.79.5(@babel/core@7.28.5)(@types/react@19.2.6)(react@19.0.0)
@@ -5600,8 +5600,8 @@ packages:
     peerDependencies:
       react: '>=17.0.0'
 
-  react-i18next@16.3.3:
-    resolution: {integrity: sha512-IaY2W+ueVd/fe7H6Wj2S4bTuLNChnajFUlZFfCTrTHWzGcOrUHlVzW55oXRSl+J51U8Onn6EvIhQ+Bar9FUcjw==}
+  react-i18next@16.3.4:
+    resolution: {integrity: sha512-DxqSfrAGEYUQn0bh8ccnWmZu6VSejRhteuA58VJenLFR7T/lr4EUuHOote/OydaVfz6MuisLcq7Uxs2fXctRCg==}
     peerDependencies:
       i18next: '>= 25.6.2'
       react: '>= 16.8.0'
@@ -12906,12 +12906,12 @@ snapshots:
 
   metro-runtime@0.82.5:
     dependencies:
-      '@babel/runtime': 7.28.2
+      '@babel/runtime': 7.28.4
       flow-enums-runtime: 0.0.6
 
   metro-runtime@0.83.2:
     dependencies:
-      '@babel/runtime': 7.28.2
+      '@babel/runtime': 7.28.4
       flow-enums-runtime: 0.0.6
 
   metro-source-map@0.82.5:
@@ -13691,9 +13691,9 @@ snapshots:
     dependencies:
       react: 19.0.0
 
-  react-i18next@16.3.3(i18next@25.6.3(typescript@5.9.3))(react-dom@19.0.0(react@19.0.0))(react-native@0.79.5(@babel/core@7.28.5)(@types/react@19.2.6)(react@19.0.0))(react@19.0.0)(typescript@5.9.3):
+  react-i18next@16.3.4(i18next@25.6.3(typescript@5.9.3))(react-dom@19.0.0(react@19.0.0))(react-native@0.79.5(@babel/core@7.28.5)(@types/react@19.2.6)(react@19.0.0))(react@19.0.0)(typescript@5.9.3):
     dependencies:
-      '@babel/runtime': 7.28.2
+      '@babel/runtime': 7.28.4
       html-parse-stringify: 3.0.1
       i18next: 25.6.3(typescript@5.9.3)
       react: 19.0.0
